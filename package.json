@@ -1,0 +1,14 @@
+{
+  "name": "ln-pay-lights",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Nadav Ivgi",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "lightning-charge-client": "^0.1.10",
+    "superagent": "^4.1.0"
+  }
+}
