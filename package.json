@@ -8,6 +8,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "clightningjs": "^0.1.1",
     "lightning-charge-client": "^0.1.10",
     "superagent": "^4.1.0"
   }
