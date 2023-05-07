@@ -27,7 +27,7 @@ charge.stream().on('payment', async inv => {
     if (inv.metadata && inv.metadata.skullEffect) {
       skull_effect()
     }
-    lifx('id:d073d5247913', 'post', 'effects/pulse', { color: 'blue brightness:1', cycles: 3, period: 0.1 })
-    setTimeout(_ => lifx('id:d073d524e344', 'post', 'effects/pulse', { color: 'blue brightness:1', cycles: 3, period: 0.1 }), 500)
+    lifx('all', 'post', 'effects/pulse', { color: 'blue brightness:1', cycles: 3, period: 0.1 })
+    // setTimeout(_ => lifx('id:d073d524e344', 'post', 'effects/pulse', { color: 'blue brightness:1', cycles: 3, period: 0.1 }), 500)
   }
 })
