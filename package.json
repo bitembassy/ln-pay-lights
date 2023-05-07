@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "lightning-charge-client": "^0.1.10",
-    "superagent": "^4.1.0"
+    "superagent": "^6.1.0"
   }
 }
