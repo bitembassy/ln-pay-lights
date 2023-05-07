@@ -14,8 +14,8 @@ const lifx = (selector, method, action, params) =>
       .catch(console.error)
 
 const skull_effect = () =>
-      request['post'](`${skullApiUrl}`, {event_body: {password: skullApiPassword}})
-        .send()
+      request.post(skullApiUrl)
+        .send({event_body: {password: skullApiPassword}})
         .then(console.log)
         .catch(console.error)
 
