@@ -8,6 +8,7 @@
     "start": "./start.sh"
   },
   "dependencies": {
+    "clightningjs": "^0.1.1",
     "lightning-charge-client": "^0.1.10",
     "superagent": "^6.1.0"
   }
